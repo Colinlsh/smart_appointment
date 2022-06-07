@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppointmentStoreFactory factory bytecode size 1`] = `16277`;
+
+exports[`AppointmentStoreFactory store bytecode size 1`] = `10916`;

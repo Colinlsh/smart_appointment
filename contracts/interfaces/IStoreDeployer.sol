@@ -1,11 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.0;
 
-import "../libraries/sharedStructs.sol";
-
 interface IStoreDeployer {
     function storeParameters()
         external
         view
-        returns (address _controller, address _owner);
+        returns (
+            address factory,
+            address owner,
+            address token,
+            uint8 storeIndex
+        );
 }

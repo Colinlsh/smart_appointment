@@ -11,6 +11,7 @@ library SharedStructs {
         uint256 datetime;
         address storeAddress;
         string occasion;
+        uint8 serviceType;
         bool attended;
         bool cancelled;
     }
